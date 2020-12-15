@@ -20,16 +20,24 @@ typedef struct{
 	int       listsize;
 }ListBox;
 
+typedef struct{
+	void**    list;
+	int       listsize;
+	int       orientation;
+}Divider;
+
 typedef union{
 	Canvas    cvs;
 	TextBox   txt;
 	ListBox   lst;
+	Divider   div;
 }PanelUnion;
 
 typedef enum{
 	PT_CANVAS,
 	PT_TEXTBOX,
-	PT_LISTBOX
+	PT_LISTBOX,
+	PT_DIVIDER
 }PanelType;
 
 typedef struct{
