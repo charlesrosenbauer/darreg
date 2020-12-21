@@ -18,18 +18,12 @@ typedef struct{
 typedef struct{
 	void**    list;
 	int       listsize;
-}ListBox;
-
-typedef struct{
-	void**    list;
-	int       listsize;
 	int       orientation;
 }Divider;
 
 typedef union{
 	Canvas    cvs;
 	TextBox   txt;
-	ListBox   lst;
 	Divider   div;
 }PanelUnion;
 
