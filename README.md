@@ -1,6 +1,10 @@
-# GUI
+# DARREG GUI
 
 This is a simple gui library for use in some Badger Labs projects.
+
+It is named after Ivor Darreg, who was the microtonal musician who coined the term "Xenharmonic". It doesn't really have anything to do with GUIs or anything, it just seemed like a cool name and Darreg had some [interesting music.](https://www.youtube.com/watch?v=8nG0T1t9WUY)
+
+
 
 It is designed to be simple and fast, with no external dependencies beyond basic windowing libraries.
 
