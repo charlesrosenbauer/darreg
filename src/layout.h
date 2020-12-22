@@ -49,4 +49,7 @@ typedef struct{
 
 
 
+Window makeWindow(uint32_t*, int, int);
+
+
 #endif
